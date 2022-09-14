@@ -1,0 +1,5 @@
+# <div align="center">**Project 1**</div>
+## **Overview**
+The file *RANDOMIZE_IN_PLACE.java* has three auxilirary methods and one main method. The first method, *int Random(int i, int n)*, takes two integers and returns a random integer from *i* to *n*. The second method, *void printArray(int[] array)*, takes an array and prints it using a for-loop. The third method, *void randomize(int[] array)*, takes an array and swaps *array[i]* with *array[num]*, where *i* is the current iteration of the for-loop and *num* is the integer returned from *int Random(int i, int n)*. For each iteration of the for-loop, *i*, the random integer, and the array before and after the swap are all printed.
+## **Running the File**
+The main method declares an array of size 10 as a test, but an array of any size can be used. The declared array is initialized using a for-loop to make each element a random integer from 0 to 100. Then, *void randomize(int[] array)* is called, and the array is randomized. Additionally, the main method prints the starting array before the randomization and the final array after *void randomize(int[] array)* is finished running.
